@@ -1,45 +1,27 @@
-*{background-color:paleturquoise
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.5;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+  color: lightgray;
 }
 
 h1{
-  font-size: 30pt;
-  margin-top: 0px;
+  font-size: 3em;
+  
+  color:black
 }
 
 p{
   text-align: center;
-  width: 720px;
-}
-
-.aboutme{
-  width: 225px;
-  height: 190px;
-  border-radius: 55%;
-  background-color:darkred;
-  align-content: center;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
   
+  color:black;
+  font-size: 2em;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(236, 118, 118);
+  padding:20px;
+  border-radius:5px;
 }
-
