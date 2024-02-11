@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
-    <h1>Kyle Stultz</h1>
-    <p>My name is Kyle Stultz. I am 22 years old and from St. Andrew Jamaica. I'm an Information Technology Major at the University of West Indies, whose currently in third year. 
-        I interested in learning web development, UX desgin and cybersecuirty. As it pertains to web development, the programming languages that have my inertest the most are python, css, javascript and html.</p>
+    <div class= container>
+        <div id = "about_i">
+            <img class = "about_i" src="{{ url_for('static', filename='kyle.jpg') }}" alt="About me image">
+        </div>
+        <h1>Kyle Stultz</h1>
+        <p>My name is Kyle Stultz. I am 22 years old and from St. Andrew Jamaica. I'm an Information Technology Major at the University of West Indies, whose currently in third year. 
+            I interested in learning web development, UX desgin and cybersecuirty. As it pertains to web development, the programming languages that have my inertest the most are python, css, javascript and html.</p>
+    </div>      
 </body>
 </html>
